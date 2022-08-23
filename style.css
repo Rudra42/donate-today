@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    text-align: center;
+}
+.hero-contents h1{
+    padding-top: 150px;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 25px;
+
+}
+.hero-contents p{
+   margin-bottom: 40px;
+   font-size: 18px;
+
+}
+h1,p {
+    margin: 0;
+    color: white;
+}
+
+.donate-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,red);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
