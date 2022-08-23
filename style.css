@@ -18,16 +18,20 @@ body{
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 25px;
+    color: white;
 
 }
 .hero-contents p{
    margin-bottom: 40px;
    font-size: 18px;
-
+   color: white;
 }
-h1,p {
+h1{
+    font-weight: 700;
     margin: 0;
-    color: white;
+}
+p {
+    margin: 0;
 }
 
 .donate-button{
@@ -36,4 +40,71 @@ h1,p {
     padding: 10px 30px;
     color: white;
     border-radius: 10px;
+}
+.donate-texts{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.donate-texts h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-boxes{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.single-box{
+    width: 100%;
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding: 60px 60px;
+}
+
+.red-box{
+    color: tomato;
+    border: 2px solid tomato;
+}
+.other-ammount{
+    text-align: center;
+}
+.other{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    border-bottom: 2px solid gray;
+}
+
+.plan-boxes{
+    display: flex;
+    margin-top: 30px;
+}
+
+.single-plan{
+    width: 32%;
+    text-align: left;
+    margin-left: 10px;
+    padding: 20px 20px;
+}
+.single-plan img{
+    width: 100px;
+    height: 80px;
+}
+#first{
+    background-color: #EDF5F6;
+}
+
+#second{
+    background-color: #FFEEEE;
+}
+
+#third{
+    background-color: #FFF4D6;
 }
