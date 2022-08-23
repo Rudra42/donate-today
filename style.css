@@ -108,3 +108,36 @@ p {
 #third{
     background-color: #FFF4D6;
 }
+.input-area{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.email-input{
+    width: 30%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+#email-area{
+    background-color: #FFEEEE;
+    padding: 20px 80px;
+}
+footer{
+    background-color: #0B0D17;
+    min-height: 80px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h1{
+    color: #FF5959;
+    font-weight: 700;
+    font-style: italic;
+}
+footer p{
+    margin-top: 30px;
+    font-size: 14px;
+    color: white;
+}
